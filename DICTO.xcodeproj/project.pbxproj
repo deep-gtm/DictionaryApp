@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E02BD2426AC316A00435E28 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02BD2326AC316A00435E28 /* WordManager.swift */; };
+		5E02BD2626AC366600435E28 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02BD2526AC366600435E28 /* Response.swift */; };
+		5E02BD2926AC4DC900435E28 /* MeaningReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02BD2726AC4DC900435E28 /* MeaningReusableCell.swift */; };
+		5E02BD2A26AC4DC900435E28 /* MeaningReusableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E02BD2826AC4DC900435E28 /* MeaningReusableCell.xib */; };
+		5E1CA95B26A711CF00DC7A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CA95A26A711CF00DC7A20 /* AppDelegate.swift */; };
+		5E1CA95D26A711CF00DC7A20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CA95C26A711CF00DC7A20 /* SceneDelegate.swift */; };
+		5E1CA96426A711D600DC7A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CA96326A711D600DC7A20 /* Assets.xcassets */; };
+		5E1CA97226A712D000DC7A20 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CA97126A712D000DC7A20 /* K.swift */; };
+		5E1CA97526A7144400DC7A20 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CA97426A7144400DC7A20 /* WelcomeViewController.swift */; };
+		5E1CA97726A7144F00DC7A20 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CA97626A7144F00DC7A20 /* RegisterViewController.swift */; };
+		5E1CA97926A7154600DC7A20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CA97826A7154600DC7A20 /* GoogleService-Info.plist */; };
+		5E1CA97B26A719F200DC7A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CA97A26A719F200DC7A20 /* Main.storyboard */; };
+		5E1CA97D26A71A1600DC7A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CA97C26A71A1600DC7A20 /* LaunchScreen.storyboard */; };
+		5E8F06B126A8991000314AAC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F06B026A8991000314AAC /* MainViewController.swift */; };
+		5ECBC75D26A939CB00B5FD64 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECBC75C26A939CA00B5FD64 /* AnimationViewController.swift */; };
+		8AAD45649D65A4B47286C77C /* Pods_DICTO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0231DDBD6EDBA16A8119E9 /* Pods_DICTO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E1CC2488C4FC6938447C449 /* Pods-DICTO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICTO.debug.xcconfig"; path = "Target Support Files/Pods-DICTO/Pods-DICTO.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA8303A2C569D908F128558 /* Pods-DICTO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICTO.release.xcconfig"; path = "Target Support Files/Pods-DICTO/Pods-DICTO.release.xcconfig"; sourceTree = "<group>"; };
+		5E02BD2326AC316A00435E28 /* WordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordManager.swift; sourceTree = "<group>"; };
+		5E02BD2526AC366600435E28 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		5E02BD2726AC4DC900435E28 /* MeaningReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningReusableCell.swift; sourceTree = "<group>"; };
+		5E02BD2826AC4DC900435E28 /* MeaningReusableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningReusableCell.xib; sourceTree = "<group>"; };
+		5E1CA95726A711CF00DC7A20 /* DICTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DICTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1CA95A26A711CF00DC7A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E1CA95C26A711CF00DC7A20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E1CA96326A711D600DC7A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E1CA96826A711D600DC7A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1CA97126A712D000DC7A20 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		5E1CA97426A7144400DC7A20 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5E1CA97626A7144F00DC7A20 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5E1CA97826A7154600DC7A20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E1CA97A26A719F200DC7A20 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5E1CA97C26A71A1600DC7A20 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E8F06B026A8991000314AAC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5ECBC75C26A939CA00B5FD64 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		6F0231DDBD6EDBA16A8119E9 /* Pods_DICTO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DICTO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1CA95426A711CF00DC7A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAD45649D65A4B47286C77C /* Pods_DICTO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD6D9195E76C8430BC9E533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E1CC2488C4FC6938447C449 /* Pods-DICTO.debug.xcconfig */,
+				5BA8303A2C569D908F128558 /* Pods-DICTO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E1CA94E26A711CF00DC7A20 = {
+			isa = PBXGroup;
+			children = (
+				5E1CA95926A711CF00DC7A20 /* DICTO */,
+				5E1CA95826A711CF00DC7A20 /* Products */,
+				1BD6D9195E76C8430BC9E533 /* Pods */,
+				B0049A00F3EBC295D4E237D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E1CA95826A711CF00DC7A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1CA95726A711CF00DC7A20 /* DICTO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E1CA95926A711CF00DC7A20 /* DICTO */ = {
+			isa = PBXGroup;
+			children = (
+				5E1CA97026A712C100DC7A20 /* Model */,
+				5E1CA96E26A711E300DC7A20 /* Other */,
+				5E1CA96F26A711EC00DC7A20 /* Controller */,
+				5E1CA97326A7133400DC7A20 /* View */,
+				5E1CA96326A711D600DC7A20 /* Assets.xcassets */,
+				5E1CA96826A711D600DC7A20 /* Info.plist */,
+				5E1CA97826A7154600DC7A20 /* GoogleService-Info.plist */,
+			);
+			path = DICTO;
+			sourceTree = "<group>";
+		};
+		5E1CA96E26A711E300DC7A20 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5E1CA95A26A711CF00DC7A20 /* AppDelegate.swift */,
+				5E1CA95C26A711CF00DC7A20 /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5E1CA96F26A711EC00DC7A20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E1CA97426A7144400DC7A20 /* WelcomeViewController.swift */,
+				5E1CA97626A7144F00DC7A20 /* RegisterViewController.swift */,
+				5E8F06B026A8991000314AAC /* MainViewController.swift */,
+				5ECBC75C26A939CA00B5FD64 /* AnimationViewController.swift */,
+				5E02BD2726AC4DC900435E28 /* MeaningReusableCell.swift */,
+				5E02BD2826AC4DC900435E28 /* MeaningReusableCell.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E1CA97026A712C100DC7A20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E1CA97126A712D000DC7A20 /* K.swift */,
+				5E02BD2326AC316A00435E28 /* WordManager.swift */,
+				5E02BD2526AC366600435E28 /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E1CA97326A7133400DC7A20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E1CA97A26A719F200DC7A20 /* Main.storyboard */,
+				5E1CA97C26A71A1600DC7A20 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0049A00F3EBC295D4E237D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0231DDBD6EDBA16A8119E9 /* Pods_DICTO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E1CA95626A711CF00DC7A20 /* DICTO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1CA96B26A711D600DC7A20 /* Build configuration list for PBXNativeTarget "DICTO" */;
+			buildPhases = (
+				843E0045B4ED519623FC8E98 /* [CP] Check Pods Manifest.lock */,
+				5E1CA95326A711CF00DC7A20 /* Sources */,
+				5E1CA95426A711CF00DC7A20 /* Frameworks */,
+				5E1CA95526A711CF00DC7A20 /* Resources */,
+				37882BF3AE57D507E6B3AAA1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DICTO;
+			productName = DICTO;
+			productReference = 5E1CA95726A711CF00DC7A20 /* DICTO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E1CA94F26A711CF00DC7A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5E1CA95626A711CF00DC7A20 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E1CA95226A711CF00DC7A20 /* Build configuration list for PBXProject "DICTO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E1CA94E26A711CF00DC7A20;
+			productRefGroup = 5E1CA95826A711CF00DC7A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1CA95626A711CF00DC7A20 /* DICTO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E1CA95526A711CF00DC7A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1CA97B26A719F200DC7A20 /* Main.storyboard in Resources */,
+				5E1CA97D26A71A1600DC7A20 /* LaunchScreen.storyboard in Resources */,
+				5E02BD2A26AC4DC900435E28 /* MeaningReusableCell.xib in Resources */,
+				5E1CA97926A7154600DC7A20 /* GoogleService-Info.plist in Resources */,
+				5E1CA96426A711D600DC7A20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37882BF3AE57D507E6B3AAA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DICTO/Pods-DICTO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DICTO/Pods-DICTO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DICTO/Pods-DICTO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843E0045B4ED519623FC8E98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DICTO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1CA95326A711CF00DC7A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1CA97226A712D000DC7A20 /* K.swift in Sources */,
+				5E1CA97726A7144F00DC7A20 /* RegisterViewController.swift in Sources */,
+				5E02BD2626AC366600435E28 /* Response.swift in Sources */,
+				5ECBC75D26A939CB00B5FD64 /* AnimationViewController.swift in Sources */,
+				5E02BD2426AC316A00435E28 /* WordManager.swift in Sources */,
+				5E1CA97526A7144400DC7A20 /* WelcomeViewController.swift in Sources */,
+				5E8F06B126A8991000314AAC /* MainViewController.swift in Sources */,
+				5E1CA95B26A711CF00DC7A20 /* AppDelegate.swift in Sources */,
+				5E02BD2926AC4DC900435E28 /* MeaningReusableCell.swift in Sources */,
+				5E1CA95D26A711CF00DC7A20 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E1CA96926A711D600DC7A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E1CA96A26A711D600DC7A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E1CA96C26A711D600DC7A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1CC2488C4FC6938447C449 /* Pods-DICTO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DICTO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshugautam.Dicto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E1CA96D26A711D600DC7A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA8303A2C569D908F128558 /* Pods-DICTO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DICTO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshugautam.Dicto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E1CA95226A711CF00DC7A20 /* Build configuration list for PBXProject "DICTO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1CA96926A711D600DC7A20 /* Debug */,
+				5E1CA96A26A711D600DC7A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1CA96B26A711D600DC7A20 /* Build configuration list for PBXNativeTarget "DICTO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1CA96C26A711D600DC7A20 /* Debug */,
+				5E1CA96D26A711D600DC7A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E1CA94F26A711CF00DC7A20 /* Project object */;
+}

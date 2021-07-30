@@ -1,0 +1,6 @@
+framework module Pods_DICTO {
+  umbrella header "Pods-DICTO-umbrella.h"
+
+  export *
+  module * { export * }
+}

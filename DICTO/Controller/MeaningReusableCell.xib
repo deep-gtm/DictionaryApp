@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reusableCell" rowHeight="199" id="KGk-i7-Jjw" customClass="MeaningReusableCell" customModule="DICTO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="529" height="199"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="529" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pC-LF-fj0">
+                        <rect key="frame" x="0.0" y="10" width="529" height="40"/>
+                        <color key="backgroundColor" name="BrandBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="oQb-Bv-ZLZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pgj-55-U0c">
+                        <rect key="frame" x="0.0" y="50" width="529" height="1"/>
+                        <color key="backgroundColor" name="BrandViolet"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="elS-RN-WJi"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RoP-7T-EmO">
+                        <rect key="frame" x="0.0" y="51" width="529" height="148"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEFINITION : " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh4-9M-zro">
+                                <rect key="frame" x="10" y="10" width="509" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" name="BrandViolet"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SYNONYMS : " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzZ-8b-Ife">
+                                <rect key="frame" x="10" y="44.5" width="509" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" name="BrandViolet"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXAMPLE : " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfw-BR-toD">
+                                <rect key="frame" x="10" y="79" width="509" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" name="BrandViolet"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tfw-BR-toD" secondAttribute="trailing" constant="10" id="8ZF-Ht-E9y"/>
+                            <constraint firstItem="jh4-9M-zro" firstAttribute="leading" secondItem="RoP-7T-EmO" secondAttribute="leading" constant="10" id="CBE-pL-mY2"/>
+                            <constraint firstItem="jh4-9M-zro" firstAttribute="top" secondItem="RoP-7T-EmO" secondAttribute="top" constant="10" id="EG8-sc-9sA"/>
+                            <constraint firstItem="tfw-BR-toD" firstAttribute="leading" secondItem="RoP-7T-EmO" secondAttribute="leading" constant="10" id="GwM-E0-vbG"/>
+                            <constraint firstItem="pzZ-8b-Ife" firstAttribute="leading" secondItem="RoP-7T-EmO" secondAttribute="leading" constant="10" id="big-Zw-nMi"/>
+                            <constraint firstAttribute="bottom" secondItem="tfw-BR-toD" secondAttribute="bottom" constant="10" id="dS0-aT-VZ7"/>
+                            <constraint firstAttribute="trailing" secondItem="jh4-9M-zro" secondAttribute="trailing" constant="10" id="qu6-vP-Lhq"/>
+                            <constraint firstAttribute="trailing" secondItem="pzZ-8b-Ife" secondAttribute="trailing" constant="10" id="r3l-Du-5jN"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" name="BrandYellow"/>
+                <constraints>
+                    <constraint firstItem="0pC-LF-fj0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Jyr-QE-YNS"/>
+                    <constraint firstAttribute="trailing" secondItem="0pC-LF-fj0" secondAttribute="trailing" id="Kj1-FE-fbJ"/>
+                    <constraint firstAttribute="bottom" secondItem="RoP-7T-EmO" secondAttribute="bottom" id="UOp-bq-b1U"/>
+                    <constraint firstItem="RoP-7T-EmO" firstAttribute="top" secondItem="Pgj-55-U0c" secondAttribute="bottom" id="mxq-XD-xTo"/>
+                    <constraint firstAttribute="trailing" secondItem="RoP-7T-EmO" secondAttribute="trailing" id="nTq-Ml-Hgg"/>
+                    <constraint firstItem="0pC-LF-fj0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ncG-Ae-CIx"/>
+                    <constraint firstItem="RoP-7T-EmO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oFh-nV-7bz"/>
+                    <constraint firstItem="Pgj-55-U0c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rdC-4c-42l"/>
+                    <constraint firstAttribute="trailing" secondItem="Pgj-55-U0c" secondAttribute="trailing" id="w5k-zO-d2y"/>
+                    <constraint firstItem="Pgj-55-U0c" firstAttribute="top" secondItem="0pC-LF-fj0" secondAttribute="bottom" id="xn0-dp-DDa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="definitionsLabel" destination="jh4-9M-zro" id="9te-L5-f7t"/>
+                <outlet property="exampleLabel" destination="tfw-BR-toD" id="gaj-eH-s4X"/>
+                <outlet property="partOfSpeechLabel" destination="0pC-LF-fj0" id="tu2-cl-MBA"/>
+                <outlet property="synonymsLabel" destination="pzZ-8b-Ife" id="zC8-4c-wrD"/>
+            </connections>
+            <point key="canvasLocation" x="283.33333333333337" y="109.48660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BrandBlue">
+            <color red="0.52600002288818359" green="0.84899997711181641" blue="0.97000002861022949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandViolet">
+            <color red="0.2460000067949295" green="0.3190000057220459" blue="0.50999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandYellow">
+            <color red="0.98000001907348633" green="0.81599998474121094" blue="0.17299999296665192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
