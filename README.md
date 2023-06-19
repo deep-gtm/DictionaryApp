@@ -12,6 +12,7 @@ Dictionary app built using UIKit (iOS) ans swfit
 5. MVC (media view controller) Desing pattern.
 6. How to build custrom UI.
 7. Worked with UITable Views.
+8. Cocoapods for package manager.
 
 ### Tools
 #### 1. Google Firebase
